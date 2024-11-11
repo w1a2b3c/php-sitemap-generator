@@ -1,12 +1,8 @@
-PHP Sitemap Generator
-=====================
+# PHP 网站地图生成器
+这个类可以用来生成网站地图并通知搜索引擎更新。
 
-This class can be used to generate sitemaps and notify updates to search engines.
+它可以从一个URL列表生成网站地图文件。每个URL可以附带最后修改日期、更新频率和优先级。网站地图文件可以以压缩格式保存。
 
-It can build a sitemap file from a list of URLs. The URLs may have attached the last modification date, a change frequency and a priority. The sitemap file may be saved in the compressed format.
+该类还可以更新站点的 robots.txt 文件，加入网站地图地址。
 
-The class may also update the site robots.txt file with the sitemap address.
-
-When the sitemap is updated, the class can also notify search engines like Google, Bing, Yahoo and Ask.
-
-
+当网站地图更新时，类还可以通知像 Google、Bing、Yahoo 和 Ask 等搜索引擎。
